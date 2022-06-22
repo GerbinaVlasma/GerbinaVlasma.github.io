@@ -1,0 +1,393 @@
+/* Menubalk */
+#menu {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+#menu nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+    display: block;
+}
+#menu nav ul li {
+    display: inline-block;
+}
+
+.hamburger {
+    width: 40px;
+    height: 40px;
+    background-image: url("img/hamburgermenu.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+
+
+.naam {
+    color: black;
+}
+
+
+.home {
+    color: black;
+}
+
+.aboutme {
+    color: black;
+}
+
+.portfolio {
+    color: black;
+}
+.align-right {
+    text-align: right;
+}
+
+.button-outter {
+    text-align: right;
+}
+
+a.navbar-link {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a.navbar-active {
+    background-color: #FD79A8;
+}
+
+/* einde menubalk */
+
+/* begin homepage */
+
+#intro {
+    background-color: #000000;
+    padding-top: 192px;
+    padding-bottom: 280px;
+}
+
+
+#intro h1{
+    color:white
+}
+
+#intro p{
+    color:white
+}
+
+a.contactopnemen {
+    background-color: #FD79A8;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+img{
+    width: 80%;
+    height: auto;
+}
+
+.luchtballon {
+    width: 746px;
+    height: 495px;
+    padding: 20px;
+}
+
+#specialiteiten{
+background-color: #FD79A8;
+padding-top: 192px;
+padding-bottom: 280px;
+}
+#specialiteiten h2 {
+    color: black;
+}
+
+#recentewerken{
+    background-color: black;
+    padding: 100px 0px;
+}
+#recentewerken h2{
+    color:white;
+}
+
+.arrow-left {
+    width: 50px;
+}
+
+.arrow-right {
+    width: 50px;
+}
+
+.slide.slick-slide {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.center-content {
+    text-align: center;
+}
+
+a.bekijkportfolio {
+    background-color: #FD79A8;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+#footer{
+background-color: rgba(253, 121, 168,30%); 
+}
+#footer img {
+    margin-right: 20px;
+}
+
+.locatie {
+    width: auto;
+    height: 46px;
+}
+
+.facebook {
+    width: auto;
+    height: 46px;
+}
+
+.mail {
+    width: auto;
+    height: 46x;
+}
+
+.insta {
+    width: auto;
+    height: 46;
+}
+
+.linkedin {
+    width: auto;
+    height: 46px;
+}
+
+
+/* Eind homepage */
+
+/* About me page */
+
+.gitaar {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Eind about me page */
+
+/* Start Portfolio */
+
+#blok1 {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fotobrug {
+    width: auto;
+    height: 370px;
+}
+
+.fotovrachtwagen {
+    width: auto;
+    height: 370px;
+}
+
+#blok2 {
+    background-color: #81ECEC;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.noeskleur {
+    width: auto;
+    height: 370px;
+}
+
+.noeszwartwit {
+    width: auto;
+    height: 370px;
+}
+
+#blok3 {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sjoukje {
+    width: auto;
+    height: 500px;
+}
+
+.jikke {
+    width: auto;
+    height: 500px;
+}
+
+#blok4 {
+    background-color: #81ECEC;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.heitenmem {
+    width: auto;
+    height: 370px;
+}
+
+.mem {
+    width: auto;
+    height: 370px;
+}
+
+#blok5 {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logo {
+    width: auto;
+    height: 370px;
+}
+
+.visitekaartje {
+    width: auto;
+    height: 370px;
+}
+
+#blok6 {
+    background-color: #81ECEC;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.luchtballon1 {
+    width: 550px;
+    height: auto;
+}
+
+.luchtballon2 {
+    width: 550px;
+    height: auto;
+}
+
+#blok7 {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.flyerfoto {
+    width: auto;
+    height: 500px;
+}
+
+.flyer {
+    width: auto;
+    height: 500px;
+}
+
+/* Eind portfolio */
+
+/* Begin contact */
+
+.locatie1 {
+    width: 55px;
+    height: 54px;
+    
+}
+
+.mail1 {
+    width: 104px;
+    height: 58px;
+}
+
+.facebook1 {
+    width: 54px;
+    height: 55px;
+}
+
+.insta1 {
+    width: 62px;
+    height: 61px;
+}
+
+.linkedin1 {
+    width: 54px;
+    height: 55px;
+}
+.contact-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.contact-block .image-outter {
+    margin-right: 10px;
+} 
+.content-outter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Eind contact */
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 768px) {
+    img {
+      margin-bottom: 10px;
+    }
+  }
+
+  /* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    
+    img {
+      margin-bottom: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .align-right {
+        text-align: unset;
+    }
+    .hamburger {
+        display: block;
+    }
+    #menu nav {
+        display: none;
+    }
+    .menu-open #menu nav {
+        display: block;
+    }
+    .menu-open #menu nav ul li{
+        display: block;
+    }
+    #blok1 img, #blok2 img, #blok3 img, #blok4 img, #blok5 img, #blok6 img, #blok7 img {
+        width: 100%;
+        height: auto;
+    }
+  }
